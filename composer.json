@@ -1,0 +1,22 @@
+{
+    "name": "mh/translator",
+    "license": "MIT",
+    "description": "Translator wrapper from google",
+    "homepage": "http://www.hollo.dk",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Michael Holm",
+            "email": "hollo@hollo.dk"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "google/cloud-translate": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Translator\\": "Translator/"
+        }
+    }
+}
