@@ -4,7 +4,7 @@ namespace Translator\Test;
 
 use PHPUnit\Framework\TestCase;
 
-final class Defalult extends TestCase
+final class DefaultTest extends TestCase
 {
     public function testTypos()
     {
